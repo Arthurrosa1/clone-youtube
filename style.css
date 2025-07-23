@@ -1,0 +1,156 @@
+* {
+    font-family: 'roboto', sans-serif;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header {
+    background-color: #ebebeb;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.barra-pesquisa {
+    width: 30%;
+    height: 30px;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+.logo-video,
+.logo-notificacao,
+.logo-menu {
+    margin-right: 1rem;
+}
+
+.logo-usuario {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+main {
+    background-color: aliceblue;
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+
+main h2 {
+    font-size: 20px;
+}
+
+.logo-canal {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.canal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.descricao-canal {
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao-canal h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.descricao-canal p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.logo-curtir,
+.logo-nao-curtir,
+.logo-compartilhar,
+.logo-baixar {
+    margin-left: 2rem;
+    margin-right: 9px;
+}
+
+
+.descricao {
+    max-width: 50%;
+}
+
+.descricao h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.descricao p {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.video-recomendado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    min-width: 25rem;
+    margin-bottom: 1.5rem;
+}
+
+.video-recomendado-img {
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+title {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: left;
+}
+
+.title p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 200;
+}
+.botao-inscrever {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+
